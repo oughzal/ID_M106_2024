@@ -1,0 +1,25 @@
+Algorithme Strings
+var
+   // Déclaration d'un tableau
+   T : Tableau[10] de entier
+
+Début
+	//initialiser un tableau
+    T =[1,2,3,4,5,6,7,8,9,10]
+    //accès à un élément
+    Ecrire(T[2])
+    //modifier un élément
+    T[3] = 40
+    //parcourir un tableau
+    pour i de 0 à 9 Faire
+                Ecrire(T[i])
+    fin_Pour
+    
+    //rempir un tableau
+    Ecrire("Donner le nombre des éléments : ")
+    Lire(N)
+    pour i de 0 à N-1 Faire
+                Ecrire("Entrez T[",i,"]")
+                Lire(T[i])
+    fin_Pour
+Fin

@@ -1,0 +1,35 @@
+Algorithme exe14
+Var
+    T,TI,TP : Tableau[100] de Entier
+    i,N,Ni,Np : Entier
+Début
+	    T = [1,2,3,4,5,6,7,8,9,10]
+	    N = 10
+	    Ni = 0
+	    Np = 0 
+	    pour i de 0 à N-1 Faire
+	    	        Si T[i] mod 2 = 0 Alors
+	    	            TP[Np] = T[i]
+	    	            Np = Np + 1
+	    	        Sinon
+	    	            TI[Ni] = T[i]
+	    	            Ni = Ni + 1
+	    	        FinSi
+	    finpour
+	    Ecrire("T :[")
+	    pour i de 0 à N-1 Faire
+	    	        Ecrire(T[i],",")
+	    finpour
+	    Ecrireln("]")
+	    Ecrire("TP :[")
+	    pour i de 0 à Np-1 Faire
+	    	        Ecrire(TP[i],",")
+	    finpour
+	    Ecrireln("]")
+	    Ecrire("TN :[")
+	    pour i de 0 à Ni-1 Faire
+	    	        Ecrire(TI[i],",")
+	    finpour
+	    Ecrireln("]")
+	    
+Fin
