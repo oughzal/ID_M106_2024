@@ -1,0 +1,27 @@
+Algorithme Exercice4
+Var
+    T: Tableau[100] de Entier
+    i,N : Entier
+Début
+	    Ecrire("Donner le nombre des case du tableau à utiliser : ")
+	    Lire(N)
+	    si N > 100 alors
+	    	        N = 100
+	    finsi
+	    
+	    //remplissage du tableau
+	    pour i de 0 à N -1 Faire
+	    	        Ecrire("Donner T[",i,"]")
+	    	        Lire(T[i] )
+	    finpour
+	    
+	    //Affichage du tableau
+	    Ecrire("T:[")
+	    pour i de 0 à N -1 Faire
+	    	        Ecrire(T[i])
+	    	        si i < N-1 Alors
+	    	        	    	 Ecrire(",")           
+	    	        finsi
+	    finpour
+	    Ecrireln("]")
+Fin

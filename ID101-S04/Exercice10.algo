@@ -1,0 +1,21 @@
+Algorithme Exercice10
+Var
+    T : Tableau[100] de entier
+    i,N,Sn,Sp : Entier
+Début
+    N = 10
+    T = [-2,3,-1,5,20,-30,9,5,4,2]	
+    
+    //Somme des positifs et des négatifs
+    Sn = 0
+    Sp = 0
+    pour i de 0 à N - 1 Faire
+            Si T[i] > 0 Alors
+                Sp = Sp + T[i]
+            Sinon
+                Sn = Sn + T[i]
+            FinSi
+    finpour
+    Ecrireln("La somme des éléments positifs est ", Sp)
+    Ecrireln("La somme des éléments négatifs est ", Sn)
+Fin

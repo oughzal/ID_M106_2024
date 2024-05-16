@@ -1,0 +1,22 @@
+Algorithme exe10
+Var
+    T : Tableau[100] de Entier
+    i,N,Np,Nn : Entier
+Début
+	    // Remplir le tableau
+	    N = 10
+	    T = [1,-2,7,-8,5,-10,20,-4,0,30]
+	    
+	    // nombre des positifs et négatifs
+	    Np = 0 // 5
+	    Nn = 0 // 3
+	    pour i de 0 à N-1 Faire
+	    	        Si T[i] >=0 Alors
+	    	            Np = Np + 1
+	    	        Sinon
+	    	            Nn = Nn + 1
+	    	        FinSi
+	    finpour
+	    Ecrire("Le nombre des positifs est ",Np," et le nombre des négatifs est ",Nn)
+	    
+Fin

@@ -1,0 +1,14 @@
+Algorithme Exercice2
+Var
+    T : Tableau[10] de Entier
+    i : Entier
+Début
+    //Remplissage
+    pour i de 0 à 9 faire
+        T[i] = 5
+    finpour
+    pour i de 0 à 9 faire
+        Ecrire(T[i])
+    finpour
+	    
+Fin

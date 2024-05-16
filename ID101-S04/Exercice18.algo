@@ -1,0 +1,24 @@
+Algorithme Exercice18
+var
+    T : Tableau[100] de Entier
+    i,j,N,tmp : Entier
+Début
+	    T = [1,2,3,4,5]
+	    N = 5
+	    i = 0
+	    j = N -1
+	    
+	    tantque i < j Faire
+	    	       tmp = T[i]
+	    	       T[i] = T[j]
+	    	       T[j] = tmp
+	    	       i = i +1
+	    	       j = j - 1
+	    fintantque
+	    
+	 Ecrire("T : [")
+	    pour i de 0 à N-1 Faire
+	    	        Ecrire(T[i],",")
+	    finpour
+	    Ecrireln("]")
+Fin

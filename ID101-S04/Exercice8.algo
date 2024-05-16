@@ -1,0 +1,30 @@
+Algorithme Exercice8
+Var
+    T : Tableau[100] de réel
+    N,i : Entier
+    min,max : Réel
+    pmin,pmax : Entier
+Début
+    // Remplir le tableau
+    T =[10,14,50,5,20,150,80,44,77,4]
+    N = 10
+    min = T[0]
+    max = T[0]
+    pmin = 0
+    pmax = 0
+    
+    pour i de  1 à N -1 Faire
+                Si T[i] < min Alors
+                    min = T[i]
+                    pmin = i
+                FinSi
+                
+                Si T[i] > max Alors
+                    max = T[i]
+                    pmax = i
+                FinSi
+    finpour
+    
+    Ecrireln("Le max est ",max, " dans la position ",pmax)
+    Ecrireln("Le min est ",min, " dans la position ",pmin)
+Fin

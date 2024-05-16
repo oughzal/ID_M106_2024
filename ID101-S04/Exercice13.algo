@@ -1,0 +1,38 @@
+Algorithme Exercice13
+Var
+    T,TN,TP : Tableau[100] de Entier
+    i,N,Nn,Np : Entier
+Début
+	    T=[-1,1,3,5,-8,0,9,-4,-12,6]
+	    N = 10
+	    Nn= 0
+	    Np = 0
+	    
+	    pour i de 0 à N-1 Faire
+	    	        si T[i] >= 0 Alors
+	    	            TP[Np] = T[i]
+	    	            Np = Np + 1
+	    	        sinon	    	            
+	    	             TN[Nn] = T[i]
+	    	              Nn = Nn + 1
+	    	        finsi
+	    finpour
+	    
+	    Ecrire("T : [")
+	    pour i de 0 à N -1 Faire
+	    	        Ecrire(T[i],", ")
+	    finpour
+	    Ecrireln("]")
+	    
+	    Ecrire("TP : [")
+	    pour i de 0 à Np -1 Faire
+	    	        Ecrire(TP[i],", ")
+	    finpour
+	    Ecrireln("]")
+	    
+	    Ecrire("TN : [")
+	    pour i de 0 à Nn -1 Faire
+	    	        Ecrire(TN[i],", ")
+	    finpour
+	    Ecrireln("]")
+Fin

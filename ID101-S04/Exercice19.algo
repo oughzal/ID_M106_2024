@@ -1,0 +1,21 @@
+Algorithme Exercice19
+Var
+    T : Tableau[100] de Entier
+    i,j,N : Entier
+Début
+    T = [1,2,1,1,3,2,3,6,0,6]
+    N = 10
+    pour i de 0 à N - 2 Faire
+        pour j de i + 1 à N -1 Faire
+            Si T[i] = T[j] Alors
+                T[j] = 0
+            FinSi
+        finpour
+    finpour
+        Ecrire("T : [")
+    pour i de 0 à N-1 Faire
+        Ecrire(T[i],",")
+    finpour
+    Ecrireln("]")
+	    
+Fin

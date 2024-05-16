@@ -1,0 +1,26 @@
+Algorithme exe7
+Var
+    T : Tableau[100] de Réel
+    i,N : Entier
+Début
+	    // remplir
+	    Ecrire("Donner le nombre des éléments : ")
+	    Lire(N)
+	    pour i de 0 à N-1 Faire
+	    	        Ecrire("Donner T[",i,"] : ")
+	    	        Lire(T[i])
+	    finpour
+	
+	    pour i de 0 à N-1 Faire
+	    	        Si T[i] >= 100 Alors
+	    	            T[i] = T[i] *1.1
+	    	        FinSi
+	    finpour
+	    
+	    //Afficher le tableau
+	    Ecrire("T : [")
+	    pour i de 0 à N -1 Faire
+	    	        Ecrire(T[i],",")
+	    finpour
+	    Ecrireln("]")
+Fin

@@ -1,0 +1,17 @@
+Algorithme Exercice11
+Var
+    T : Tableau[100] de réel
+    i,N,nbAdmis : Entier
+Début
+	    N = 10
+	    T = [5,8,20,13,16,8,10,9,14,12]
+	    
+	    nbAdmis = 0
+	    pour i de 0 à N-1 Faire
+	    	        Si T[i] >= 10 Alors
+	    	            nbAdmis = nbAdmis + 1
+	    	        FinSI
+	    finpour
+	    
+	    Ecrire("Le nombre des étudiants admis est ",nbAdmis)
+Fin

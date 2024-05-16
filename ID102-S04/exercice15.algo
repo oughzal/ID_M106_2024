@@ -1,0 +1,19 @@
+Algorithme exe15
+Var
+    T : Tableau[100] de Entier
+    i,N,X : Entier
+Début
+	   T = [1,2,3,4,5,6,7,8,9,10]
+	   N = 10
+	   Ecrire("Donner la valeur recherchée : ")
+	   Lire(X)
+	   i =0
+	   tantque i<= N-1 et T[i] != X Faire
+	   	       i = i +1
+	   fintantque
+	   Si T[i] = X Alors
+	       Ecrire(X, " existe dans le tableau")
+	   Sinon
+	       Ecrire(X, " n''existe pas dans le tableau")
+	   FinSi
+Fin

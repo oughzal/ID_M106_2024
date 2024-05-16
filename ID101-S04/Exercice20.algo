@@ -1,0 +1,28 @@
+Algorithme Exercice20
+Var 
+    T : Tableau[100] de Entier
+    i,N, V,p : Entier
+Début
+    T = [1,2,3,4,5,6,7]
+    N = 7
+    
+    Ecrire("Donner la valeur : ")
+    Lire(V)
+    Ecrire("Donner sa postion : ")
+    Lire(p)
+    Si p < 0 ou p >=N Alors
+        Ecrire("La position n'est pas valide'")
+    sinon 
+        N = N + 1
+        pour i de N-1 à p+1 pas -1 faire
+                    T[i] = T[i -1]
+        finpour
+        T[p] = V
+    FinSi
+    Ecrire("T : [")
+    pour i de 0 à N-1 Faire
+                Ecrire(T[i],",")
+    finpour
+    Ecrireln("]")
+	    
+Fin

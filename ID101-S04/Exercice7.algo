@@ -1,0 +1,20 @@
+Algorithme Exercice7
+Var
+    T : Tableau[100] de Entier
+    N,i : Entier
+Début
+	    N = 10
+	    
+	    T =[2,8,6,7,4,0,3,100,400,76]
+	    
+	    pour i de 0 à N-1 Faire
+	    	        Si T[i] >=100 Alors
+	    	            T[i]  = T[i]*1.1
+	    	        FinSi    
+	    finpour
+	    Ecrire("T : [")
+	    pour i de 0 à n-1 Faire
+	    	        ecrire(T[i],", ")
+	    finpour
+	    Ecrireln("]")
+Fin

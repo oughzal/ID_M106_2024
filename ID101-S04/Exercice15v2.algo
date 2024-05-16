@@ -1,0 +1,22 @@
+Algorithme Exercice15
+var
+    T : Tableau[100] de Entier
+    i,N,v : Entier
+    
+    Début
+	    T = [1,2,3,4,5,6,7,8,9,10]
+	    N = 10
+	    Ecrire("Donner la valeur recherchée : ")
+	    Lire(v)
+	    
+	    i = 0
+	    tantQue i < N et T[i] != v Faire
+	        i = i + 1
+	    FinTantQue
+	    
+	    Si T[i] = v Alors
+	        Ecrire(v, " existe dans T")
+	    Sinon
+	         Ecrire(v, " n'existe pas dans T")
+	    FinSi
+Fin

@@ -1,0 +1,20 @@
+Algorithme Exercice16
+var 
+    T : Tableau[100] de Entier
+    F : Tableau[6] de Entier
+    i,index : Entier
+Début
+	    pour i de 0 à 99 faire
+	    	        T[i] = alea(1,6)
+	    finpour
+	    
+	    F = [0,0,0,0,0,0]
+	    pour i de 0 à 99 Faire
+	    	        index = T[i] - 1 
+	    	        F[index] = F[index] + 1
+	    finpour
+	    
+	    pour i de 0 à 5 Faire
+	    	        Ecrireln("La fréquence de ",i+1 , "  : " , F[i])
+	    finpour
+Fin

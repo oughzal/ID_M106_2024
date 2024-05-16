@@ -1,0 +1,29 @@
+Algorithme Exercice9
+Var
+    T : Tableau[100] de réel
+    i,N,nb : Entier
+    S,M : Réel
+Début
+	    T = [13,12,19,15,7,8,11,20,15,10]
+	    N = 10
+	    
+	    // Somme du Tableau
+	    S = 0
+	    pour i de 0 à N -1 Faire
+	    	        S = S + T[i]
+	    finpour
+	    
+	    // moyenne du Tableau
+	    M = S / N
+	    
+	    // nombre des notes supérieur à la moyenne
+	    nb = 0
+	    pour i de 0 à N -1 Faire
+	    	        Si T[i] >= M Alors
+	    	            nb  = nb + 1
+	    	        FinSi
+	    finpour
+	    Ecrireln("La somme est ", S)
+	    Ecrireln("La moyenne est ", M)
+	    Ecrireln("Le nombre de notes supérieur à la moyenne est ", nb)
+Fin

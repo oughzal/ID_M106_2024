@@ -1,0 +1,29 @@
+Algorithme Exercice6
+Var 
+    T : Tableau[100] de Entier
+    N,i,X : Entier
+Début
+	    // Remplir le tableau
+	    Ecrire("Donner le nombre des élément du tableau : ")
+	    Lire(N)
+	    
+	    pour i de 0 à N - 1 Faire
+	    	        Ecrire("Donner la valeur de T[",i,"] : ")
+	    	        Lire(T[i])
+	    finpour
+	    
+	    // Augmenter d'une valeur X les éléments du tableau
+	    Ecrire("Donner la valeur de X")
+	    Lire(X)
+	    
+	    pour i de 0 à N - 1 Faire
+	    	        T[i] = T[i] + X
+	    finpour
+	    
+	    //Afficher le tableau
+	    Ecrire("T : [")
+	    pour i de 0 à N-1 Faire
+	    	        Ecrire(T[i],", ")
+	    finpour
+	    Ecrireln("]")
+Fin

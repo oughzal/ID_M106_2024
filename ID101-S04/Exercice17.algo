@@ -1,0 +1,19 @@
+Algorithme Exercice17
+var
+    T : Tableau[100] de Entier
+    i,N,X : Entier
+Début
+	    T = [1,2,3,4,5]
+	    N = 5
+	    Ecrire("Donner la valeur à insérer : ")
+	    Lire(X)
+	    T[N] = X
+	    N = N + 1
+	    
+	    Ecrire("T : [")
+	    pour i de 0 à N-1 Faire
+	    	        Ecrire(T[i],",")
+	    finpour
+	    Ecrireln("]")
+	    
+Fin

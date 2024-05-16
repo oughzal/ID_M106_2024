@@ -1,0 +1,32 @@
+Algorithme exe8
+Var
+    T : Tableau[100] de Réel
+    i,N : Entier
+    Min,Max : Réel
+    pmin, pmax : Entier
+Début
+	    // remplir
+	    Ecrire("Donner le nombre des éléments : ")
+	    Lire(N)
+	    pour i de 0 à N-1 Faire
+	    	        Ecrire("Donner T[",i,"] : ")
+	    	        Lire(T[i])
+	    finpour
+	    
+	    Min = T[0]
+	    Max = T[0]
+	    pmin = 0
+	    pmax = 0
+	    pour i de 0 à N-1 Faire
+	    	        Si T[i] > Max Alors
+	    	            Max = T[i]
+	    	            pmax = i
+	    	        FinSi        
+	    	        Si T[i] < Min Alors
+	    	            Min = T[i]
+	    	            pmin = i
+	    	        FinSi
+	    finpour
+	    Ecrireln("le max est ",Max, " dans la position ",pmax)
+	     Ecrireln("le max est ",Min, " dans la position ",pmin)
+Fin

@@ -1,0 +1,17 @@
+Algorithme Exercice12
+Var
+    T1,T2,T3 : Tableau[100] de Entier
+    i,N : Entier
+Début
+	    T1 = [4,8,7,9,1,5,4,6]
+	    T2 = [7,6,5,2,1,3,7,4]
+	    N =  8
+	    pour i de 0 à N - 1 faire
+	    	        T3[i] = T1[i] + T2[i]
+	    finpour
+	    	Ecrire("T3: [")
+	    	pour i de 0 à N -1 faire
+	    		    	    Ecrire(T3[i],", ")
+	    	finpour
+	    	Ecrireln("]")
+	    Fin

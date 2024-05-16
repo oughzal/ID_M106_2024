@@ -1,0 +1,23 @@
+Algorithme Exercice15
+var
+    T : Tableau[100] de Entier
+    i,N,v : Entier
+    found : Booléen
+    Début
+	    T = [1,2,3,4,5,6,7,8,9,10]
+	    N = 10
+	    Ecrire("Donner la valeur recherchée : ")
+	    Lire(v)
+	    found = Faux
+	    pour i de 0 à N-1 Faire
+	    	        Si T[i] = v Alors
+	    	            found = vrai
+	    	        FinSi
+	    finpour
+	    
+	    Si found = vrai Alors
+	        Ecrire(v, " existe dans T")
+	    Sinon
+	         Ecrire(v, " n'existe pas dans T")
+	    FinSi
+Fin

@@ -1,0 +1,31 @@
+Algorithme exe9
+Var
+    T : Tableau[100] de Réel
+    i,N,nb : Entier
+    S,M : Réel
+Début
+	    // remplir la tableau des notes 
+	    Ecrire("Donner le nombre des notes : ")
+	    Lire(N)
+	    pour i de 0 à N-1 Faire
+	    	        Ecrire("Donner T[",i,"] : ")
+	    	        Lire(T[i])
+	    finpour
+	    //Calculer la somme 
+	    S = 0
+	    pour i de 0 à N-1 Faire
+	    	        S = S + T[i]
+	    finpour
+	    // calculer la moyenne
+	    M = S / N
+	    //nombre des notes > M
+	    nb = 0
+	    pour i de 0 à N-1 Faire
+	    	        Si T[i] >= M Alors
+	    	            nb = nb + 1
+	    	        FinSi
+	    finpour
+	   Ecrireln("La somme est ", S)
+	   Ecrireln("La moyenne est ", M)
+	   Ecrireln("Le nombre des notes > à M est  ", nb)
+Fin

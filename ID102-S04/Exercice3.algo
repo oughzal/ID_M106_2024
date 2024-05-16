@@ -1,0 +1,25 @@
+Algorithme ex3
+Var
+    T : Tableau[100] de Entier
+    i,N : Entier
+Début
+	    Ecrire("Donner le nombre des éléments du tableau")
+	    Lire(N) // N : nombre des cases utilisé dans le tableau
+	    Si N >100 Alors
+	        N = 100
+	    FinSi
+	    // remplissage du tableau
+	    pour i de 0 à N-1 Faire
+	    	        T[i] = 0
+	    finpour
+	    
+	    // Afficher le tableau
+	    Ecrire("T : [")
+	    pour i de 0 à N-1 Faire
+	    	        Ecrire(T[i])
+	    	        Si i < N-1 Alors
+	    	            Ecrire(",")
+	    	        FinSi
+	    finpour
+	    Ecrireln("]")
+Fin

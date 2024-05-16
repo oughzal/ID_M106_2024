@@ -1,0 +1,20 @@
+Algorithme ex1
+Var
+    // déclaration du tableau
+    Voyelles : Tableau[6] de caractère
+    i : Entier
+Début
+	    // Remplissage du Tableau
+	    Voyelles = ['a','e','i','o','u','y']
+	    Voyelles[0] = 'a'
+	    Voyelles[1] = 'e'
+	    Voyelles[2] = 'i'
+	    Voyelles[3] = 'o'
+	    Voyelles[4] = 'u'
+	    Voyelles[5] = 'y'
+	    
+	    //Afficher le tableau
+	    pour i de 0 à 5 Faire
+	    	        Ecrire(Voyelles[i],",")
+	    finpour
+Fin

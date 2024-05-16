@@ -1,0 +1,21 @@
+Algorithme exe5
+Var
+    T : Tableau[100] de entier
+    i,N,S,P : Entier
+    M : réel
+Début
+	    // remplir 
+	    T = [1,2,3,4,5,6,7,8]
+	    N = 8
+	    // calculer la somme, produit, et moynne
+	    S = 0
+	    P = 1
+	    pour i de 0 à N-1 Faire
+	    	        S = S + T[i]
+	    	        P = P * T[i]
+	    finpour
+	    M = S / N
+	    ecrireln("La somme est : ",S)
+	    ecrireln("L produit est : ",P)
+	    ecrireln("La moyenne est : ",M)
+Fin

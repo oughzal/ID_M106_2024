@@ -1,0 +1,23 @@
+Algorithme Exercice5
+Var
+    T : Tableau[100] de Entier
+    i,N,S,P : Entier
+    M : réel
+Début
+	    Ecrire("Donner le nombre des élémeent du tableau : ")
+	    Lire(N)
+	    
+	    pour i de 0 à N -1 Faire
+	    	        Ecrire("Donner l'élément ",i+1, " : ")
+	    	        Lire(T[i])
+	    finpour
+	    
+	    S = 0
+	    P = 1
+	    pour i de 0 à N-1 Faire
+	    	        S = S + T[i]
+	    	        P = P * T[i]
+	    finpour
+	    M = S / N
+	    Ecrire("la somme est ",S, "; le produit est ", P, " et la moyenne est ", M)
+Fin
