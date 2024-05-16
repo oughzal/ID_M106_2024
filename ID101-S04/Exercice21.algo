@@ -1,0 +1,29 @@
+Algorithme Exercice21
+Var
+    T : Tableau[100] de Entier
+    i,N,p : Entier
+Début
+	    T =[1,6,8,2,9,0,5,10,11,13]
+	    N = 10
+	    Ecrire("Donner la position du supression : ")
+	    Lire(p)
+	    Ecrire("T : [")
+	    pour i de 0 à N-1 Faire
+	    	        Ecrire(T[i],",")
+	    finpour
+	    Ecrireln("]")
+	    Si p >= 0 et p < N Alors
+	        pour i de p à N -2 Faire
+	    	        T[i] = T[i+1]
+	        finpour
+	        N = N -1
+	    Sinon
+	        Ecrireln("la position de supression n'est pas valide")
+	    FinSi
+	      Ecrire("T : [")
+	    pour i de 0 à N-1 Faire
+	    	        Ecrire(T[i],",")
+	    finpour
+	    Ecrireln("]")
+	    
+Fin
