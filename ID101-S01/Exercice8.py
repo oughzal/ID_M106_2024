@@ -1,0 +1,10 @@
+A=float(input("ecrire le nomber A : "))
+B=float(input("ecrire le nomber B : "))
+S = A+B
+ST = A-B
+P = A*B
+D = A/B 
+print("La somme est = ",S)
+print("La soustraction est = ",ST)
+print("Le produit est = ",P)
+print("La division est = ",D)
