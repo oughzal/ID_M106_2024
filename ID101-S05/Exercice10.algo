@@ -1,0 +1,13 @@
+Algorithme Exercice10
+fonction fact(n:Entier) : Entier
+var i,f : Entier
+début
+    f = 1
+    pour i de 1 à n Faire
+            f = f * i
+    finpour
+    retourner f
+fin
+Début
+	Ecrireln(fact(6))
+Fin

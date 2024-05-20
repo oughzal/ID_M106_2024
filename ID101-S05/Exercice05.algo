@@ -1,0 +1,13 @@
+Algorithme Exercice5
+
+fonction max(a:réel,b:réel):réel
+début
+    Si a > b Alors
+        retourner a
+    sinon
+        retourner b
+    FinSi
+fin
+Début
+	Ecrire(max(9,5))
+Fin

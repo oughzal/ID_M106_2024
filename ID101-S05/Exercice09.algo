@@ -1,0 +1,11 @@
+Algorithme Exercice9
+procédure tableMultiplication(n:Entier)
+var i : entier
+début
+    pour i de 1 à 10 Faire
+            Ecrireln(n," x ",i , " = ", n*i)
+    finpour
+fin
+Début
+	    tableMultiplication(8)
+Fin

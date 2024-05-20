@@ -1,0 +1,14 @@
+Algorithme Exercice11
+fonction miroire(n:Entier):Entier
+var inv : Entier
+début
+   inv = 0 
+   tantque n != 0 faire
+          inv = inv*10 + n mod 10
+          n = n div 10
+   fintantque
+   retourner inv
+fin
+Début
+    Ecrireln(miroire(123456))
+Fin

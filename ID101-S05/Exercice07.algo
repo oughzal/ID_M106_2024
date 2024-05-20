@@ -1,0 +1,14 @@
+Algorithme Exercice7
+var x,y : Réel
+procédure swap(var a:Réel,var b:Réel)
+var t : Réel
+début
+    t = a
+    a = b
+    b = t
+fin
+Début
+    x = 2
+    y = 7
+    Ecrireln("x:",x , " ; y:", y)
+Fin

@@ -1,0 +1,19 @@
+Algorithme Exercice4
+fonction estPair(N:Entier):Booleen
+début
+    Si N mod 2 = 0 Alors
+        retourner Vrai
+    sinon
+        retourner Faux
+    FinSi
+fin
+fonction estPair2(N:Entier):Booleen
+début
+    retourner N mod 2 = 0
+fin
+Début
+	 Ecrireln(estPair(5))
+	 Ecrireln(estPair(10))
+	 Ecrireln(estPair2(5))
+	 Ecrireln(estPair2(10))
+Fin

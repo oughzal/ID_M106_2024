@@ -1,0 +1,13 @@
+Algorithme Exercice6
+
+fonction min(a:réel,b:réel):réel
+début
+    Si a < b Alors
+        retourner a
+    sinon
+        retourner b
+    FinSi
+fin
+Début
+	Ecrire(min(9,5))
+Fin
