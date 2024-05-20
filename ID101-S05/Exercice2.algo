@@ -1,0 +1,13 @@
+Algorithme Exercice2
+fonction multiplication(a:Entier,b:Entier) : Entier
+var i,s : Entier
+début
+   s = 0
+    pour i de 1 à b faire
+            s = s + a
+    finpour
+    retourner s
+fin
+Début
+	 Ecrireln(multiplication(9,5))
+Fin

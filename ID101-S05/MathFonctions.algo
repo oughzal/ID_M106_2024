@@ -1,0 +1,11 @@
+Algorithme MathFonctions
+Const pi = 3.14159
+Début
+	Ecrireln("sin(pi/6) = ",sin(pi/6))
+	Ecrireln("cos(pi/3) = ",cos(pi/3))
+	Ecrireln("tan(pi/3) = ",tan(pi/4))
+	Ecrireln("|-6| = ", abs(-6))
+	Ecrireln("Arrondi(3.22) = ",arrondi(3.22))
+	Ecrireln("Racine(9) = ", racine(9))
+	Ecrireln("nombre Aléatoire entre 1,9 : ", Alea(1,9))
+Fin

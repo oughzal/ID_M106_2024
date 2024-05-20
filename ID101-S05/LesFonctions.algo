@@ -1,0 +1,16 @@
+Fonction Nom_Fonc(Liste des paramètres) : Type
+Var nom : type
+Début
+Instruction(s)
+Retourner expression
+Fin
+
+fonction max(a:Entier,b:Entier) : entier
+début
+   si a>b alors
+        retourner a
+   sinon
+        retourner b
+   FinSi 
+fin
+

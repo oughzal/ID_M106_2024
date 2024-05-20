@@ -1,0 +1,16 @@
+Algorithme LesProcedures
+var i: Entier
+procedure etoiles(N : Entier)
+début
+    pour i de 0 à N-1 Faire
+            Ecrire("*")
+    finpour
+    Ecrireln()
+fin
+Début
+    pour i de 0 à 9 Faire
+        etoiles(i)
+    finpour
+Fin
+
+

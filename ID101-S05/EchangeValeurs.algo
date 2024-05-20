@@ -1,0 +1,15 @@
+Algorithme EchangeValeurs
+var a,b : Entier
+procedure swap(var x : Entier, var y:Entier)
+var t : Entier
+début
+    t = a
+    a = b
+    b  = t
+fin
+Début
+    a = 8
+    b = 2
+    swap(a,b)
+    Ecrire("a :",a," ; b:",b)
+Fin

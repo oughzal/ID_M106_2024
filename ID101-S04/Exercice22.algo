@@ -1,0 +1,31 @@
+Algorithme Exercice22
+Var
+    T : Tableau[100] de entier
+    i,j,k,N : Entier
+Début
+	    T = [1,2,3,1,7,1,4,5,2,5,3,8,1,2,3]
+	    N = 14
+	    // T = [1,2,3,4,5,8]
+	    Ecrire("T : [")
+	    pour i de 0 à N-1 Faire
+	    	        Ecrire(T[i],",")
+	    finpour
+	    Ecrireln("]")
+	    
+	    pour i de 0 à N- 2 Faire
+	    	        pour j de i+1 à N-1 Faire
+	    	        	    	 Si T[i] = T[j] alors
+	    	        	    	     pour k de j à N-1 Faire
+	    	        	    	     	    	  T[k] = T[k+1]
+	    	        	    	     finpour
+	    	        	    	     N = N-1
+	    	        	    	 FinSi
+	    	        finpour
+	    finpour
+	    
+	    Ecrire("T : [")
+	    pour i de 0 à N-1 Faire
+	    	        Ecrire(T[i],",")
+	    finpour
+	    Ecrireln("]")
+Fin
