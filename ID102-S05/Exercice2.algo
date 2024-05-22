@@ -1,0 +1,14 @@
+Algorithme Exercice2
+fonction multiplication(a:Entier,b:Entier):Entier
+var i,s: Entier // variable locales
+debut
+    s = 0
+    pour i de 1 à b Faire
+            s = s + a
+    finpour
+    retourner s
+fin
+Début
+    Ecrireln(multiplication(4,5))
+    Ecrireln(multiplication(8,4))
+Fin

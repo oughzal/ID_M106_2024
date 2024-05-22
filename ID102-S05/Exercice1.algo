@@ -1,0 +1,8 @@
+Algorithme Exercice1
+fonction f(x:Réel):Réel
+début
+    retourner racine(x^2 -2*sin(x+4))/x^3
+fin
+Début
+    Ecrireln(f(1))	
+Fin

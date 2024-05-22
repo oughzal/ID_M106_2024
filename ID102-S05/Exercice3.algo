@@ -1,0 +1,13 @@
+Algorithme Exercice3
+procédure valeurPair(M:Entier,N:Entier)
+var i : Entier
+début
+    pour i de M à N Faire
+        Si i mod 2 = 0 Alors
+            Ecrire(i,",")
+        FinSi
+    finpour
+fin
+Début
+	valeurPair(2,20)
+Fin

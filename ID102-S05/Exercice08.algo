@@ -1,0 +1,14 @@
+Algorithme Exercice8
+fonction partieEntiere(x:Réel) : Entier
+var i : Entier
+début
+    i = 0
+    tantque i<= x Faire
+        i = i + 1
+    fintantque
+    retourner i -1
+fin
+Début
+    Ecrireln(partieEntiere(8.987))
+    Ecrireln(partieEntiere(0.1234))
+Fin
