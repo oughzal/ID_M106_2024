@@ -1,0 +1,19 @@
+Algorithme Exercice12
+fonction estPalindrome(ch:Chaine) :Booleen
+var i,j : Entier
+début
+    i = 0
+    j = long(ch) -1
+    tantque i < j Faire
+        si ch[i] != ch[j] alors
+                    retourner Faux
+        finsi
+        i = i + 1
+        j = j - 1
+    fintantque
+    retourner Vrai
+fin
+Début
+    Ecrireln(estPalindrome("LAVAL"))
+    Ecrireln(estPalindrome("NON"))
+Fin

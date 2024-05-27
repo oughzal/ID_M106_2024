@@ -1,0 +1,19 @@
+Algorithme Exercice13 
+fonction estPremier(N : Entier):Booleen
+var i : Entier
+début
+    si N=1 ou N=2 alors
+            retourner Vrai
+    finsi
+    pour i de 2 à N -1 Faire
+            si N mod i = 0 alors
+                    retourner Faux
+            finsi
+    finpour
+    retourner Vrai
+fin
+Début
+	    Ecrireln(estPremier(2))
+	    Ecrireln(estPremier(20))
+	    Ecrireln(estPremier(11))
+Fin

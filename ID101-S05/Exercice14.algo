@@ -1,0 +1,17 @@
+Algorithme Exercice14
+fonction estParfait(N:Entier):Booleen
+var i,s : Entier
+début
+    s = 0 
+    pour i = 1 à N -1 Faire
+        si N mod i = 0 alors
+            s = s + i
+        finsi
+    finpour
+     retourner s = N
+fin
+Début
+    Ecrireln(estParfait(6))
+    Ecrireln(estParfait(28))
+    Ecrireln(estParfait(30))
+Fin
