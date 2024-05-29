@@ -7,7 +7,7 @@ Get-Location # équivalent a pwd(linux)
 #supprimer le dossier c:\doc\REP1 et son contenu
 Remove-Item c:\doc\REp1 -Recurse
 #vérifier si le fichier c:\doc\file.txt existe
-test-path c:\docfile.txt
+test-path c:\doc\file.txt
 #Ecrire "Hello world" dans le fichier c:\doc\file.txt
 Set-Content -Path c:\doc\file.txt -Value "Hello world"
 # créer un utilisateur avec le nom d'utilisateur et mot de passe saisie au clavier
